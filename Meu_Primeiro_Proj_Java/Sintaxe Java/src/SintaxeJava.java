@@ -1,15 +1,11 @@
-public class SintaxeJava {
-        String meuNome = "William";
-        int anoNascimento = 1991;
-        boolean verFal;
-        public static String nomeCompleto (String primeiroNome, String segundoNome){
-            return "Resultado do metodo " + primeiroNome.concat(" ").concat(segundoNome);
-        }
-        public static void main(String[] args) {
-            String primeiroNome = "Wlliam";
-            String segundoNome = "Jonas";
-            String nomeCompleto = nomeCompleto (primeiroNome,segundoNome);
-
-            System.out.println(nomeCompleto);
+public class SintaxeJava {//casse
+        public static void main(String[] args) {//metodo
+            int mediaFinal = 6;//variavel
+                if (mediaFinal < 6)//fluxo
+                    System.out.println("Reprovado");//ação
+                else if (mediaFinal == 6)
+                    System.out.println("Prova de Mineva");
+                else
+                    System.out.println("Aprovado");
         }
     }
