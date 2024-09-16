@@ -1,7 +1,15 @@
 public class SintaxeJava {//casse
     public static void main(String[] args){
-        String nomeUm = "William";
-        String nomeDois = new String("William");
-        System.out.println(nomeUm.equals(nomeDois));
+        boolean condicao1=true;
+        boolean condicao2=true;
+
+        if(condicao1 && (7 > 4)){
+            System.out.println("Ambas verdadeiras");
+        }
+        if(condicao1 || condicao2){
+            System.out.println("Uma verdadeira");
+        }
+
+        System.out.println("fim");
     }
 }
