@@ -1,6 +1,6 @@
 public class Usuario {
 public static void main(String[] args) throws Exception {
-    SmartTv smartTv = new SmartTv();
+    Conta smartTv = new Conta();
 
     smartTv.diminuirVolume();
     smartTv.diminuirVolume();
